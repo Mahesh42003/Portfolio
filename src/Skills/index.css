@@ -1,0 +1,49 @@
+@media (min-width:799px){
+.background-of-skills {
+    background-color: fuchsia;
+    color: #ffffff;
+    height: 50vh;
+    width: 20%;
+    border-radius: 20px;
+}
+
+.flexing-of-skill-set {
+    display: flex;
+    flex-direction: column;
+    list-style-type: square;
+    margin-top: 30px;
+    font-family: "Geneva";
+}
+
+.styling-for-techinical-skills {
+    margin-left: 50px;
+    color: mediumslateblue;
+}
+
+.flexing-of-skills-and-certifications {
+    display: flex;
+    justify-content: space-evenly;
+}
+} 
+
+@media (max-width:799px){
+    .background-of-skills {
+        background-color: fuchsia;
+        color: #ffffff;
+        height: 100vh;
+        width: 70%;
+        border-radius: 20px;
+        margin-left: 300px;
+        font-size: 20px;
+    }
+    
+    .styling-technical-skills {
+        color: #ffffff;
+        font-size: 32px;
+    }
+    .styling-for-techinical-skills {
+        text-align: center;
+        color: mediumslateblue;
+        font-size: 34px;
+    }
+} 

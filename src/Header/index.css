@@ -1,0 +1,125 @@
+@media  (min-width:799px){
+.spacing-left-for-name {
+    margin-left: 80px;
+}
+.inActiveState {
+    text-decoration: none;
+} 
+
+.styling-of-nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left: 80px;
+} 
+
+.styling-for-nav-items-and-name {
+    display: flex;
+    
+}
+
+.each-list-item-styling {
+    margin-left: 100px;
+}
+
+.background-profile-photo {
+    background-image: url("https://i.im.ge/2024/06/28/Vo9D0a.IMG-20230928-154151.jpeg");
+    height: 550px;
+    width: 400px;
+    background-size: cover; 
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.styling-of-Name {
+    color: #ffffff;
+    font-family: 'Lucida Sans';
+}
+
+.styling-of-download-button {
+    background-color: rgb(255, 0, 230);
+    color: #ffffff;
+    text-decoration: none;
+    height: 32px;
+    width: 150px; 
+    border-radius: 5px;
+    text-align: center;
+} 
+
+.activeState{
+    text-decoration: none;
+    border: none;
+    color: darkmagenta;
+    font-weight: bold;
+}
+.entire-background-color {
+    background-color: deepskyblue;
+    height: auto;
+}
+}
+
+@media  (max-width : 799px){
+    .spacing-left-for-name {
+        margin: 40px;
+        font-size: 25px;
+    }
+
+    .entire-background-color {
+        background-color: deepskyblue;
+        height: auto;
+        width: 400%;
+    } 
+
+    .activeState {
+        text-decoration: none;
+        color: darkmagenta;
+        font-weight: bold;
+    }
+
+    .inActiveState {
+        text-decoration: none;
+    }
+
+    .styling-of-nav-items {
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        margin-left: 40px;
+        font-size: 30px;
+    } 
+    .styling-for-nav-items-and-name {
+        display: flex;
+    }
+    .each-list-item-styling {
+        margin-left: 40px;
+        
+    }
+    .background-profile-photo {
+        background-image: url("https://i.im.ge/2024/06/28/Vo9D0a.IMG-20230928-154151.jpeg");
+        height: 550px;
+        width: 400px;
+        background-size: cover; 
+        margin-left: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .styling-of-Name {
+        color: #ffffff;
+        font-family: 'Lucida Sans';
+    }
+    .styling-of-download-button {
+        background-color: rgb(255, 0, 230);
+        color: #ffffff;
+        text-decoration: none;
+        height: 32px;
+        width: 150px; 
+        border-radius: 5px;
+        text-align: center;
+        font-size: 18px;
+    } 
+}

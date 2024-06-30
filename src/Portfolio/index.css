@@ -1,0 +1,87 @@
+@media (min-width:799px){
+.styling-of-github {
+    height: 32px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-width: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+.stying-of-live-demo {
+    height: 32px;
+    width: 100px;
+    color: black;
+    background-color: yellow;
+    border-width: 0px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.styling-of-weather-app {
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    width: 20%;
+    height: 320px;
+    margin-left: 520px;
+    border-radius: 10px;
+}
+
+.styling-of-weather-image {
+    margin: 20px;
+}
+} 
+
+@media (max-width:799px){
+    .styling-of-github {
+        height: 50px;
+        width: 150px;
+        color: white;
+        background-color: black;
+        border-width: 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        font-size: 40px;
+    }
+    
+    .stying-of-live-demo {
+        height: 50px;
+        width: 250px;
+        color: black;
+        background-color: yellow;
+        border-width: 0px;
+        border-radius: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        outline: none;
+        font-size: 40px;
+    }
+    .styling-of-weather-app {
+        background-color: aliceblue;
+        border-style: solid;
+        border-color: blue;
+        border-width: 1px;
+        width: 50%;
+        height: 520px;
+        margin-left: 450px;
+        border-radius: 10px;
+    }
+    .styling-of-weather-image {
+        margin: 20px;
+        margin-left: 200px;
+        height: 200px;
+    }
+    .horizontal-width {
+        background-color: black;
+    }
+}

@@ -1,0 +1,130 @@
+@media (min-width:799px){
+.flexing-of-form-item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.width-of-textarea-element {
+    width: 150%;
+    margin-top: 20px;
+}
+
+.submit-button-styling {
+    width: 150%;
+    margin-top: 20px;
+    background-color: darkorchid;
+    border-width: 0px;
+    color: #ffffff;
+    height: 32px;
+    outline: none;
+    cursor: pointer;
+}
+.anchor-element-styling {
+    background: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.whatsapp-logo-size {
+    height: 100px;
+    width: 30px;
+}
+
+.background-of-whatsapp {
+    background-color: blueviolet;
+    height: 30vh;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.email-logo-size {
+    height: 50px;
+    width: 30px;
+}
+
+.flexing-of-form-and-imformation-element {
+    display: flex;
+    justify-content: space-evenly;
+    
+} 
+
+.flexing-of-whatsapp-and-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+} 
+
+@media (max-width:799px){
+    .flexing-of-form-item {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    } 
+
+    .horizontal-width {
+        color: black;
+    }
+    .submit-button-styling {
+        width: 100px;
+        margin-top: 40px;
+        background-color: darkorchid;
+        border-width: 0px;
+        color: #ffffff;
+        height: 42px;
+        outline: none;
+        cursor: pointer;
+        font-size: 35px;
+        margin-left: 150px;
+    }
+    .width-of-textarea-element {
+        width: 50%;
+        margin-top: 20px;
+        font-size: 28px;
+        margin-left: 150px;
+        border-style: solid;
+        border-color: grey;
+        border-width: 3px;
+        
+    } 
+
+    .width-of-input-element {
+        height: 100px;
+    }
+    .whatsapp-logo-size {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .background-of-whatsapp {
+        background-color: blueviolet;
+        height: 40vh;
+        border-radius: 10px;
+        color: #ffffff;
+        width: 50%;
+        text-align: center;
+        margin: 20px;
+        margin-top: 40px;
+        margin-left: 250px;
+    }
+    .anchor-element-styling {
+        background: transparent;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 40px;
+    }
+    .email-logo-size {
+        height: 100px;
+        width: 100px;
+    }
+    .email-owner {
+        font-size: 40px;
+        font-weight: bold; 
+        
+    }
+}

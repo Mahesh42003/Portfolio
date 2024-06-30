@@ -1,0 +1,68 @@
+@media (min-width : 799px){
+.aligning-of-About-Me-heading {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.paragraph-width {
+    width: 40%;
+}
+.about-me{
+    text-align: center;
+}
+.about-me-paragraph-and-image {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexing-of-Phone-and-email {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.background-color-of-social-media-links {
+    width: 300px;
+    height: 30px;
+}
+.size-of-icon {
+    width: 70px;
+    height: 25px;
+    margin-top: 3px;
+    color: red;
+}
+} 
+
+@media (max-width:799px){
+    .aligning-of-About-Me-heading {
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 32px;
+    }
+    .horizontal-width {
+        background-color: black;
+    }
+
+    .about-me{
+        font-size: 40px;
+    }
+    .paragraph-width{
+        
+        font-size: 35px;
+    }
+    .background-color-of-social-media-links {
+       
+        width: 100%;
+        height: 30px;
+    }
+    .size-of-icon {
+        width: 70px;
+        height: 25px;
+        margin-top: 3px;
+        color: red;
+    }
+    .height-and-width-of-image{
+        height: 400px;
+        width: 500px;
+    }
+}
