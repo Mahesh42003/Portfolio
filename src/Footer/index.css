@@ -28,9 +28,21 @@
 .margin-left-for-copy-right {
     margin-left: 100px;
 }
+.size-of-icon1 {
+    width: 70px;
+    height: 25px;
+    margin-top: 3px;
+    color: rgb(10, 11, 8);
+}
 } 
 
 @media (max-width:799px){
+    .size-of-icon1 {
+        width: 70px;
+        height: 55px;
+        margin-top: 3px;
+        color: rgb(9, 9, 9);
+    }
     .entire-footer-colour {
         background-color: cornflowerblue;
         height: 70vh;
