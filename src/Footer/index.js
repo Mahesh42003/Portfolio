@@ -24,19 +24,19 @@ const Footer=() => (
         <div className="social-media-styling">
         <a href="https://www.facebook.com/profile.php?id=100066002684161" target="__" >
         
-            <CiFacebook className="size-of-icon additional-size"/>
+            <CiFacebook className="size-of-icon1 additional-size"/>
             </a>
             <a href="https://www.instagram.com/mahi_mom_lover123/?hl=en" target="__">
-            <BiLogoInstagram className="size-of-icon additional-size"/>
+            <BiLogoInstagram className="size-of-icon1 additional-size"/>
             </a>
             <a href="https://www.linkedin.com/in/mahesh-gudipati/" target="__">
-              <CiLinkedin className="size-of-icon additional-size"/>
+              <CiLinkedin className="size-of-icon1 additional-size"/>
             </a>
             <a href="https://x.com/GudipatiMahesh6?t=B8cQElqKh1G3Z4q5olWG2A&s=09" target="__">
-            <RiTwitterXLine className="size-of-icon additional-size"/>
+            <RiTwitterXLine className="size-of-icon1 additional-size"/>
             </a> 
             <a href="https://github.com/Mahesh42003" target="__">
-                <FaGithub className="size-of-icon additional-size"/>
+                <FaGithub className="size-of-icon1 additional-size"/>
             </a>
             </div>
         <p className="margin-left-for-copy-right">Copyright © Gudipati Mahesh.All Rights Reserved.</p>
