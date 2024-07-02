@@ -7,9 +7,11 @@
 
 .paragraph-width {
     width: 40%;
+    color: #ffffff;
 }
 .about-me{
     text-align: center;
+    color: whitesmoke;
 }
 .about-me-paragraph-and-image {
     display: flex;
@@ -29,7 +31,7 @@
     width: 70px;
     height: 25px;
     margin-top: 3px;
-    color: red;
+    color: skyblue;
 }
 } 
 
@@ -45,9 +47,10 @@
 
     .about-me{
         font-size: 40px;
+        color: whitesmoke;
     }
     .paragraph-width{
-        
+        color: #ffffff;
         font-size: 35px;
     }
     .background-color-of-social-media-links {
@@ -57,9 +60,9 @@
     }
     .size-of-icon {
         width: 70px;
-        height: 25px;
+        height: 55px;
         margin-top: 3px;
-        color: red;
+        color: skyblue;
     }
     .height-and-width-of-image{
         height: 400px;
