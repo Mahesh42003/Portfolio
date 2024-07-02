@@ -1,9 +1,11 @@
 @media  (min-width:799px){
 .spacing-left-for-name {
     margin-left: 80px;
+    color: #ffffff;
 }
 .inActiveState {
     text-decoration: none;
+    color: #ffffff;
 } 
 
 .styling-of-nav-items {
@@ -52,36 +54,40 @@
 .activeState{
     text-decoration: none;
     border: none;
-    color: darkmagenta;
-    font-weight: bold;
+    color: rgb(236, 51, 79);
+    
 }
 .entire-background-color {
-    background-color: deepskyblue;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/734/564/desktop-wallpaper-techy-backgrounds-portfolio.jpg");
     height: auto;
-}
+    background-size: cover;
+} 
 }
 
 @media  (max-width : 799px){
     .spacing-left-for-name {
         margin: 40px;
-        font-size: 25px;
+        font-size: 30px;
+        color: #ffffff;
     }
 
     .entire-background-color {
-        background-color: deepskyblue;
+        background-image: url("https://e1.pxfuel.com/desktop-wallpaper/734/564/desktop-wallpaper-techy-backgrounds-portfolio.jpg");
         height: auto;
+        background-size: cover;
         width: 400%;
     } 
 
     .activeState {
         text-decoration: none;
-        color: darkmagenta;
-        font-weight: bold;
+        color: rgb(236, 51, 79);
+        font-size: 30px;
     }
 
     .inActiveState {
         text-decoration: none;
-    }
+        color: #ffffff;
+    } 
 
     .styling-of-nav-items {
         display: flex;
