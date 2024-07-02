@@ -25,9 +25,9 @@ const Education=() => (
         <h1 className='Education-heading'>Education</h1>
         <hr className='horizontal-width'/>
         <Chrono items={EducationData} mode="VERTICAL_ALTERNATING" cardHeight="350" disableToolbar="true" theme={{
-            primary: "red",
+            primary: "orange",
             secondary: "blue",
-            cardBgColor: "yellow",
+            cardBgColor: "white",
             cardForeColor: "violet",
             titleColor: "red",
         }} className="margin-left-chrono-width"> 
